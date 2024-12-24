@@ -1,0 +1,205 @@
+body{
+    width: 100%;
+    height: 0%;
+    margin: 0px;
+     flex-shrink: 0px;
+}
+
+
+/* topnav stylling */
+.top_nav{
+    background-color: #1D9D21;
+    height: 55px;
+
+}
+
+.top_nav_ul{
+    display: inline-flex;
+    list-style-type: none;
+    float: right;
+ display: flex;
+
+    flex-wrap: wrap;
+}
+
+.top_nav_ul li{
+    margin-bottom: 6px;
+    padding: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.top_nav_ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.top_nav_ul li a:hover{
+    color: limegreen;
+}
+
+/*stylling for nav bar and dropdown*/
+.sub_menu{
+    width: 100%;
+    background-color: yellow;
+    height: 100px;
+
+
+
+}
+.sub_menu_content{
+   display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+
+}
+
+.sub_logo{
+    
+}
+.sub_logo img{
+    width: 20%;
+    height: 90%;
+    margin-top: 2%;
+    margin-left: 8%;
+    
+}
+.links{
+    display: inline-flex;
+    margin-left: 50%;
+    margin-top: 0%;
+}
+
+.links > div{
+    float: right;
+    margin-top: -2%;
+    margin-bottom: 4%;
+
+}
+
+.sub_menu_content h4{
+     font-weight: 600;
+    margin: 0px;
+    margin-top: 1%;
+    padding: 0px;
+    padding-left: 30px;
+}
+
+/* ****************submenu sylling at hover***************** */
+.popover{
+    visibility: hidden;
+    position: relative;
+     z-index: 1;
+     list-style-type: none;
+     padding: 3%;
+     padding-top: 5%;
+     width: 200%;
+     height: 100%;
+     background-color: black;
+
+}
+
+.popover  li a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 17px;
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-top: 6px;
+    text-align: left;
+    margin-bottom: 3px;
+
+    
+}
+
+.popover  li a:hover{
+    color: limegreen;
+}
+
+.sub_menu_links a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub_menu_links h4 a:hover{
+    color: limegreen;
+
+}
+.sub_menu_links:hover > .popover{
+    visibility: visible;
+}
+
+hr{
+  
+}
+
+/*************************section_1 sylling begins**********************************
+************************                        ********************************/
+.section_1{
+margin-top: 5%;
+
+}
+
+.section_1_row{
+    display: flex;
+    column-gap: 1%;
+
+    
+}
+.section_1_col img{
+    width: 101%;
+    height: 100%px;
+}
+
+.section_1_col{
+   width: 201%;
+    height: 60%;
+/*    margin-left: 5%;*/
+    margin-right: 3%;
+    border: 1px solid grey;
+    box-shadow: grey;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.section_1_col h4{
+    margin-top: 5%;
+}
+.section_1_col h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.section_1_col > p a{
+    text-decoration: none;
+    color: black;
+     
+    
+}
+.section_1_col > p{
+    margin-top: 80%;
+}
+.section_1_col h4 a:hover {
+    color: limegreen;
+    opacity: 5px;
+    
+}
+
+.section_1_col > p a:hover {
+    color: limegreen;
+    opacity: 5px;
+
+}
+
+
+
+/*************************section_2 sylling begins**********************************
+************************                           ********************************/
+
+.section_2{
+    background-color: greenyellow;
+    
+}
